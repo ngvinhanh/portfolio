@@ -1,7 +1,7 @@
 
 body { margin: 0; padding: 0; box-sizing: border-box; background-color:#b8f3f7; background-image:url(./photo/cover6.jpg)}
 
-.font-loader { /*font-family: 'Chilanka';*/ font-size: 22px; color: rgb(87, 85, 85);}
+.font-loader { font-family: 'Chilanka'; font-size: 22px; color: rgb(87, 85, 85);}
 
 h1 { text-transform: uppercase; }
 

@@ -10,7 +10,7 @@ function GlobalStyles({ children }){
     useEffect(() => {
         WebFont.load({
           google: {
-            families: ['Droid Sans', 'Droid Serif' ]
+            families: ['Droid Sans', 'Droid Serif', 'Chilanka' ]
           }
         });
        }, []);
