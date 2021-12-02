@@ -1,0 +1,105 @@
+.font-loader { font-family: 'Chilanka'; font-size: 22px;}
+
+.menuMain { margin-top: 50px; margin-bottom: 100px; background-color: #b8f3f7; padding: 15px; border-radius: 20px;}
+  
+.menuMain ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuMain li a {
+  text-decoration: none;
+  color: #5e5c5c;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+}
+
+.menuMain li a:hover {
+  color: black;
+  opacity: 0.5;
+  background-color:#92d8d8;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.menuDropdown {
+  position: relative;
+}
+
+.menu {
+  border-radius: 8px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+}
+
+.menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color:#b8f3f7;
+}
+
+.menu li {
+  border-bottom: 1px dashed #b4b1b1;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #575454;
+  padding: 25px 20px;
+  padding-left: 50px;
+  display: block;
+  font-size: 25px;
+}
+
+.menu li a:hover {
+  color: black;
+  opacity: 0.5;
+  background-color:#92d8d8;
+
+  cursor: pointer;
+}
+.menu-trigger {
+  background: transparent;
+  font-size: 50px;
+  color: rgb(136, 132, 132);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 10px;
+  vertical-align: middle;
+  transition: box-shadow 0.4s ease;
+}
+
+@media (max-width: 739px) {
+  .menuMain { display: none; }
+  
+}
+
+@media (min-width: 740px){
+  .menuDropdown { display: none; }
+
+}
+
+
+

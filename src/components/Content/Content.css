@@ -1,0 +1,7 @@
+.content button {
+    position : fixed;
+    background-color: #baf0f0;
+    padding: 15px; 
+    border-radius: 10px;
+    border: 1px dashed #baf0f0;
+}

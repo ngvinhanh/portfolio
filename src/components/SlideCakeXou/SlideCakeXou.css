@@ -1,0 +1,20 @@
+
+.slideCakeXouContainer.row { background-color: #f7ddde; margin-bottom: 100px; border-radius: 20px;}
+
+.slideContainer1, .slideContainer2 { width: 550px; margin: auto; padding-top: 30px; }
+
+.slideContainer1 img, .slideContainer2 img { height: 350px; width: 100%; border-radius: 20px;} 
+
+@media (max-width: 739px) {
+
+    .slideContainer1 img, .slideContainer2 img { height: 400px; width: 100%;}
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+
+    .slideContainer1.m-5 , .slideContainer2.m-5 {  max-width: 100%;  }
+ }
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .slideContainer1 img, .slideContainer2 img { height: 300px; width: 100%; }
+}
