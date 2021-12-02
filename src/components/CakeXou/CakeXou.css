@@ -1,7 +1,7 @@
 
 .cakeXouContainer.row { flex-direction: row-reverse; margin-bottom: 30px;}
 
-.logo {height: 100%; margin-top: 120px;}
+/* .logo {height: 100%; margin-top: 120px;} */
 
 .cakeXouPresentation h1{ text-align: center; }
 .cakeXouPresentation p{ text-align: justify; padding-right: 35px;}
