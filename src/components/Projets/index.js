@@ -14,7 +14,7 @@ function Projects(){
     return(
         <div>
             <div className='projetsContainer row grid wide' id='projets'>
-                <img src= {photo} alt='logo-code' className='code l-3 m-5 c-12'/>
+                <img src= {photo} alt='logo-code' className='logoCode l-3 m-5 c-12'/>
                 <div className='projetsPresentation font-loader l-9 m-7 c-12'>
                     <h1>Projects</h1>
                     <p>From a willing to make a site web for my cakes, I participate a course on developer web and from that moment, the desire of practicable the developmental web becomes my wish.
@@ -26,7 +26,7 @@ function Projects(){
             </div>
             <div className='layoutGrid'>
                 <div className='layoutItem'>
-                    <img src={photo1} alt='photo1' className='layoutImage img1' />
+                    <img src={photo1} alt='photo1' className='layoutImage imgFit' />
                 </div>
                 <div className='layoutItem'>
                     <img src={photo2} alt='photo2' className='layoutImage' />
@@ -41,7 +41,7 @@ function Projects(){
                     <img src={photo5} alt='photo5' className='layoutImage'/>
                 </div>
                 <div className='layoutItem'>
-                    <img src={photo6} alt='photo6' className='layoutImage img1' />
+                    <img src={photo6} alt='photo6' className='layoutImage imgFit' />
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 
-.code {
+.logoCode {
     border-radius:50%;
     width: 150px;
     height: 100%;
@@ -33,9 +33,7 @@ img.layoutImage {
     object-fit: cover;
 }
 
-img.img1 {
-    object-fit:initial;
-}
+img.imgFit { object-fit:initial; }
 
 .layoutItem:first-child { grid-area: h1; }
 
@@ -69,15 +67,14 @@ img.img1 {
         margin: 0 auto;
     }
 
-    .code { 
+    .logoCode { 
         max-width: 450px;
         margin: 0 auto;
         margin-bottom: 30px;
     }
+}
 
- }
-
- @media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 740px) and (max-width: 1023px) {
 
     .layoutGrid {
     display: grid;
@@ -92,10 +89,10 @@ img.img1 {
     width: 80%;
     }
 
-    .code { margin-top: 15%;}
- }
+    .logoCode { margin-top: 15%;}
+}
 
- @media (min-width: 1024px) and (max-width: 1239px) {
+@media (min-width: 1024px) and (max-width: 1239px) {
 
     .layoutGrid {
         display: grid;
@@ -107,5 +104,5 @@ img.img1 {
         "h4 h5 h6"; 
         margin: 0 auto;
         width: 90%;
-        }
- }
+    }
+}
