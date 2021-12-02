@@ -43,52 +43,52 @@ function SlideCakeXou(){
                 <Slide {...properties}>
                     <div className='each-slide'>
                         <div>
-                            <img src={img1} alt='image' />
+                            <img src={img1} alt='photoCake1' />
                         </div>
                     </div>
                     <div className='each-slide'>
                         <div>
-                            <img src={img2} alt='image' />
+                            <img src={img2} alt='cake2' />
                         </div>
                     </div>
                     <div className='each-slide'>
                         <div>
-                            <img src={img3} alt='image' />
+                            <img src={img3} alt='cake3' />
                         </div>
                     </div>
                     <div className='each-slide'>
                         <div>
-                            <img src={img4} alt='image' />
+                            <img src={img4} alt='cake4' />
                         </div>
                     </div>
                     <div className='each-slide'>
                         <div>
-                            <img src={img5} alt='image' />
+                            <img src={img5} alt='cake5' />
                         </div>
                     </div>
                     <div className='each-slide'>
                         <div>
-                            <img src={img6} alt='image' />
+                            <img src={img6} alt='cake6' />
                         </div>
                     </div>
                     <div className='each-slide'>
                         <div>
-                            <img src={img7} alt='image' />
+                            <img src={img7} alt='cake7' />
                         </div>
                     </div>
                     <div className='each-slide'>
                         <div>
-                            <img src={img8} alt='image' />
+                            <img src={img8} alt='cake8' />
                         </div>
                     </div>
                     <div className='each-slide'>
                         <div>
-                            <img src={img9} alt='image' />
+                            <img src={img9} alt='cake9' />
                         </div>
                     </div>
                     <div className='each-slide'>
                         <div>
-                            <img src={img10} alt='image' />
+                            <img src={img10} alt='cake10' />
                         </div>
                     </div>
                 </Slide>
@@ -97,52 +97,52 @@ function SlideCakeXou(){
             <Slide {...properties}>
                     <div className='each-slide'>
                         <div>
-                            <img src={img11} alt='image' />
+                            <img src={img11} alt='cake11' />
                         </div>
                     </div>
                     <div className='each-slide'>
                         <div>
-                            <img src={img12} alt='image' />
+                            <img src={img12} alt='cake12' />
                         </div>
                     </div>
                     <div className='each-slide'>
                         <div>
-                            <img src={img13} alt='image' />
+                            <img src={img13} alt='cake13' />
                         </div>
                     </div>
                     <div className='each-slide'>
                         <div>
-                            <img src={img14} alt='image' />
+                            <img src={img14} alt='cake14' />
                         </div>
                     </div>
                     <div className='each-slide'>
                         <div>
-                            <img src={img15} alt='image' />
+                            <img src={img15} alt='cake15' />
                         </div>
                     </div>
                     <div className='each-slide'>
                         <div>
-                            <img src={img16} alt='image' />
+                            <img src={img16} alt='cake16' />
                         </div>
                     </div>
                     <div className='each-slide'>
                         <div>
-                            <img src={img17} alt='image' />
+                            <img src={img17} alt='cake17' />
                         </div>
                     </div>
                     <div className='each-slide'>
                         <div>
-                            <img src={img18} alt='image' />
+                            <img src={img18} alt='cake18' />
                         </div>
                     </div>
                     <div className='each-slide'>
                         <div>
-                            <img src={img19} alt='image' />
+                            <img src={img19} alt='cake19' />
                         </div>
                     </div>
                     <div className='each-slide'>
                         <div>
-                            <img src={img20} alt='image' />
+                            <img src={img20} alt='cake20' />
                         </div>
                     </div>
                 </Slide>

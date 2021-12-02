@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { useRef, useState } from 'react'
+import { useRef} from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
@@ -23,7 +23,7 @@ function MenuHeading(){
             <div className='menuContainer grid wide'>
                 <nav className='menuMain'>
                     <ul className='font-loader row'>
-                        <li className='l-3 m-3'><a href='#'>Welcome</a></li>
+                        <li className='l-3 m-3'><a href='#welcome'>Welcome</a></li>
                         <li className='l-3 m-3'><a href="#cakeXou">My Story</a></li>
                         <li className='l-3 m-3'><a href='#projets'>Projects</a></li>
                         <li className='l-3 m-3'><a href='#contactId'>Contact</a></li>
@@ -35,7 +35,7 @@ function MenuHeading(){
                     </button>
                     <nav ref={dropdownRef} className={`menu ${isActive ? 'active' : 'inactive'}`}>
                         <ul className='font-loader'>
-                            <li><a href="#">Welcome</a></li>
+                            <li><a href="#welcome">Welcome</a></li>
                             <li><a href="#cakeXou">My Story</a></li>
                             <li><a href="#projets">Projects</a></li>
                             <li><a href="#contactId">Contact</a></li>
