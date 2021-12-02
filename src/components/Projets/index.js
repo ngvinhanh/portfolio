@@ -26,7 +26,7 @@ function Projects(){
             </div>
             <div className='layoutGrid'>
                 <div className='layoutItem'>
-                    <img src={photo1} alt='photo1' className='layoutImage' />
+                    <img src={photo1} alt='photo1' className='layoutImage img1' />
                 </div>
                 <div className='layoutItem'>
                     <img src={photo2} alt='photo2' className='layoutImage' />
@@ -41,7 +41,7 @@ function Projects(){
                     <img src={photo5} alt='photo5' className='layoutImage'/>
                 </div>
                 <div className='layoutItem'>
-                    <img src={photo6} alt='photo6' className='layoutImage' />
+                    <img src={photo6} alt='photo6' className='layoutImage img1' />
                 </div>
             </div>
         </div>

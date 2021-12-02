@@ -37,7 +37,7 @@ function Content() {
     return (
         <div className="content">
             {showGoToTop && (
-                <button style = {{ right: 30, bottom: 30}} className="font-loader" onClick = { handleGoUp }>
+                <button style = {{ right: 30, bottom: 50}} className="font-loader" onClick = { handleGoUp }>
                     <FontAwesomeIcon icon={faArrowUp} />
                 </button>
                 )}
