@@ -10,7 +10,7 @@ function GlobalStyles({ children }){
     useEffect(() => {
         WebFont.load({
           google: {
-            families: ['Chilanka', 'Georgia', 'Cambria', 'Times New Roman']
+            families: ['Droid Sans', 'Droid Serif' ]
           }
         });
        }, []);
