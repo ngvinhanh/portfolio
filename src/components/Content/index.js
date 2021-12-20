@@ -30,8 +30,8 @@ function Content() {
     }, [])
 
     const handleGoUp = () => {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
+        document.body.scrollTo({top: 0, behavior: 'smooth'});
+        document.documentElement.scrollTo({top: 0, behavior: 'smooth'});
     }
 
     return (
