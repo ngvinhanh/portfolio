@@ -17,10 +17,8 @@ function Projects(){
                 <img src= {photo} alt='logo-code' className='logoCode l-3 m-5 c-12'/>
                 <div className='projetsPresentation font-loader l-9 m-7 c-12'>
                     <h1>Projects</h1>
-                    <p>From a willing to make a site web for my cakes, I participate a course on developer web and from that moment, the desire of practicable the developmental web becomes my wish.
-                    I have occasion to code many sites static in HTML, CSS, and some projects in PHP and Symfony2 in my second course.</p>
-                    <p>Passionate in the front end developer , I start to study React JS myself. I use some skills in my portfolio such as React JS, Grid CSS with also a library that I build my self to make easier the responsive with CSS Flexbox.
-                    </p>
+                    <p>Wishing to make a website for my baking business, I enrolled in a web developing course. Here I found out that in developing websites, I can also fulfill my wish to create and design. I have coded many static sites in HTML, CSS, and some projects in PHP and Symfony2 in my second course.</p>
+                    <p>Passionate in being a front end developer, I started to study ReactJS myself. In my portfolio, I use some tools such as ReactJS, Grid CSS, and a self-compiled library to make responsive websites using CSS Flexbox.</p>
                 </div>
                 
             </div>

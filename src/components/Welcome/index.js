@@ -11,10 +11,10 @@ function Welcome(){
             <div className='welcomePresentation font-loader l-9 m-7 c-12'>
                 <h1>Hello & Welcome</h1>
                 <div>
-                    <p>Hello, my name is Vinh Anh and I’m a web developer from Paris.</p>
-                    <p>Working like front end web developer  and watching these beautiful site web build, with a perfect responsive is my objective.</p>
-                    <p>My basic opinion is that if there's something I don't understand, it's just because I haven't spent enough time on it. That perspective helps me keep trying.</p>
-                    <p>Hope we have something in common that we can share.</p>
+                    <p>Hello, my name is Vinh Anh and I'm a web developer from Paris.</p>
+                    <p>I enjoy working as a front-end web developer and building aesthetically pleasing yet intuitive and functional websites.</p>
+                    <p>My guiding principle is that if there's something I don't understand, it's just because I haven't spent enough time on it. I’m not afraid of trying hard until I can be proud of my work.</p>
+                    <p>I'd love to get to know people with the same perspective on life.</p>
                 </div>
             </div>
         </div>
