@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './Welcome.css'
-import photo from './photo/ava3.jpg'
+import photo from './photo/avaVA.jpg'
 
 function Welcome(){
 
