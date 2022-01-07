@@ -5,4 +5,5 @@
     margin-bottom: 20px; 
     border-radius: 10px;
     border: 1px dashed #baf0f0;
+    z-index: 1;
 }
